@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function CartoonNewEpisode() {
     return (
-        <div className="py-5">
+        <div className="py-4 xl:py-6">
             <div className="mb-4">
-                <div className="text-3xl text-white">ตอนใหม่ล่าสุด</div>
+                <div className="text-2xl md:text-3xl text-white">ตอนใหม่ล่าสุด</div>
             </div>
 
             <div className="grid grid-cols-6 gap-5">

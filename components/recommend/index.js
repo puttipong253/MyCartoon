@@ -4,9 +4,9 @@ import { Autoplay, Navigation } from 'swiper';
 
 export default function Recommend() {
     return (
-        <div className="py-6">
+        <div className="py-4 xl:py-6">
             <div className="mb-4">
-                <div className="text-3xl text-white">เรื่องแนะนำ</div>
+                <div className="text-2xl md:text-3xl text-white">เรื่องแนะนำ</div>
             </div>
 
             <Swiper
@@ -16,14 +16,14 @@ export default function Recommend() {
                 slidesPerView={3}
                 breakpoints={{
                     320: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         spaceBetween: 10,
                     },
                     768: {
                         slidesPerView: 2,
                         spaceBetween: 15,
                     },
-                    1024: {
+                    1200: {
                         slidesPerView: 2,
                         spaceBetween: 20,
                     },

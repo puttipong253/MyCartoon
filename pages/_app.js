@@ -3,6 +3,8 @@ import "tailwindcss/tailwind.css";
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 import LayoutDefault from "../components/layouts/default";
 
 function MyApp({ Component, pageProps }) {

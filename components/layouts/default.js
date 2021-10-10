@@ -1,26 +1,15 @@
-import { useEffect, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 
 export default function Default({ children }) {
-    const [scrollTop, setScrollTop] = useState(0);
-    useEffect(() => {
-        window.onscroll = function () {
-            setScrollTop(document.documentElement.scrollTop);
-            console.log(document.documentElement.scrollTop);
-        };
-    }, []);
-
     return (
         <>
             <Head>
                 <title>MyCartoon</title>
             </Head>
-            
-            <header
-                className="fixed z-50 top-0 w-full bg-black bg-opacity-90 h-20 backdrop-filter backdrop-blur-sm transform case-in-out transition-all duration-300"
-            >
-                <div className="container mx-auto flex justify-between h-full items-center px-3 md:px-0">
+
+            <header className="fixed z-50 top-0 w-full bg-black bg-opacity-90 h-20 backdrop-filter backdrop-blur-sm transform case-in-out transition-all duration-300">
+                <div className="container mx-auto flex justify-between h-full items-center px-3 xl:px-0">
                     <div className="text-white text-xl cursor-pointer">
                         My Cartoon
                     </div>
@@ -42,13 +31,13 @@ export default function Default({ children }) {
             </header>
 
             <div className="bg-black bg-opacity-90 w-full">
-                <div className="container mx-auto px-3 mt-20 md:px-0">
+                <div className="container mx-auto mt-20 px-3 xl:px-0">
                     {children}
                 </div>
             </div>
 
             <footer className="h-40 bg-black bg-opacity-90 text-white">
-                <div className="px-3 md:px-0">Footer</div>
+                <div className="px-3 xl:px-0">Footer</div>
             </footer>
         </>
     );

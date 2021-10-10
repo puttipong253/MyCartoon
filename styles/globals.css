@@ -13,15 +13,46 @@ body {
 }
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
-    /* color: red !important; */
     background-image: url(../public//svg-icons/arrow-up-2.svg);
     background-repeat: no-repeat;
     background-size: 30px auto;
     background-position: center;
-    background-color: #A6A0A0;
+    background-color: #a6a0a0;
     padding: 18px 22px;
     border-radius: 100%;
 }
+
+@media only screen and (max-width: 428px) {
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        display: none !important;
+    }
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .swiper-pagination {
+        display: none !important;
+    }
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    background-color: gold;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 0px !important;
+}
+
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
     display: none;
@@ -29,13 +60,12 @@ body {
 
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
-    /* color: red !important; */
     background-image: url(../public//svg-icons/arrow-up-2.svg);
     background-repeat: no-repeat;
     background-size: 30px auto;
     background-position: center;
     transform: rotate(180deg);
-    background-color: #A6A0A0;
+    background-color: #a6a0a0;
     padding: 18px 22px;
     border-radius: 100%;
 }

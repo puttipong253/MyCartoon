@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from 'swiper';
 export default function Banner() {
     return (
-        <div className="py-5">
+        <div className="py-2 xl:py-5">
             <Swiper
                 modules={[Autoplay, Navigation]}
                 autoplay={{ delay: 3000 }}
@@ -11,14 +11,14 @@ export default function Banner() {
                 slidesPerView={3}
                 breakpoints={{
                     320: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         spaceBetween: 10,
                     },
                     768: {
-                        slidesPerView: 3,
+                        slidesPerView: 2,
                         spaceBetween: 10,
                     },
-                    1024: {
+                    1200: {
                         slidesPerView: 3,
                         spaceBetween: 10,
                     },

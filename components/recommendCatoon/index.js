@@ -4,7 +4,7 @@ export default function RecommendCartoon() {
     return (
         <div className="py-5">
             <div className="flex justify-between mb-4">
-                <div className="text-3xl text-white">การ์ตูนแนะนำ</div>
+                <div className="text-2xl md:text-3xl text-white">การ์ตูนแนะนำ</div>
                 <button className="flex items-center">
                     <span className="text-lg text-white mr-2">ดูทั้งหมด</span>
                     <Image
