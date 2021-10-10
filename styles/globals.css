@@ -10,6 +10,7 @@ body {
     margin: 0;
     font-family: "Prompt", sans-serif !important;
     scroll-behavior: smooth;
+    background-color: rgba(0, 0, 0, 0.02);
 }
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
