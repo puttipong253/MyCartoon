@@ -11,6 +11,7 @@ module.exports = {
                 'gold-1' : '#BE7A22',
                 'gold-2' : '#FFCF5A',
                 'black': '#000000',
+                'dark': '#191919'
             },
         },
         screens: {

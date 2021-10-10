@@ -4,7 +4,7 @@ export default function Manhwa() {
     return (
         <div className="py-4 xl:py-6">
             <div className="flex justify-between mb-4">
-                <div className="text-2xl md:text-3xl text-white">การ์ตูน</div>
+                <div className="text-2xl md:text-3xl text-white">การ์ตูนทั้งหมด</div>
                 <button className="flex items-center">
                     <span className="text-sm md:text-lg text-white mr-2">ดูทั้งหมด</span>
                     <Image

@@ -19,8 +19,8 @@ export default function Banner() {
                         spaceBetween: 10,
                     },
                     1200: {
-                        slidesPerView: 3,
-                        spaceBetween: 10,
+                        slidesPerView: 2,
+                        spaceBetween: 15,
                     },
                 }}
             >
@@ -28,8 +28,9 @@ export default function Banner() {
                     <Image
                         src="/images/banner-1.PNG"
                         alt="Picture of the banner"
-                        width={550}
-                        height={270}
+                        width={650}
+                        height={300}
+                        layout="responsive"
                         className="rounded-md cursor-pointer"
                     />
                 </SwiperSlide>
@@ -37,8 +38,9 @@ export default function Banner() {
                     <Image
                         src="/images/banner-2.PNG"
                         alt="Picture of the banner"
-                        width={550}
-                        height={270}
+                        width={650}
+                        height={300}
+                        layout="responsive"
                         className="rounded-md cursor-pointer"
                     />
                 </SwiperSlide>
@@ -46,8 +48,9 @@ export default function Banner() {
                     <Image
                         src="/images/banner-3.PNG"
                         alt="Picture of the banner"
-                        width={550}
-                        height={270}
+                        width={650}
+                        height={300}
+                        layout="responsive"
                         className="rounded-md cursor-pointer"
                     />
                 </SwiperSlide>
@@ -55,8 +58,9 @@ export default function Banner() {
                     <Image
                         src="/images/banner-4.PNG"
                         alt="Picture of the banner"
-                        width={550}
-                        height={270}
+                        width={650}
+                        height={300}
+                        layout="responsive"
                         className="rounded-md cursor-pointer"
                     />
                 </SwiperSlide>

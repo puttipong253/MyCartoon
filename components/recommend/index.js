@@ -24,7 +24,7 @@ export default function Recommend() {
                         spaceBetween: 15,
                     },
                     1200: {
-                        slidesPerView: 2,
+                        slidesPerView: 3,
                         spaceBetween: 20,
                     },
                 }}
@@ -33,8 +33,9 @@ export default function Recommend() {
                     <Image
                         src="/images/recommend-1.PNG"
                         alt="Picture of the recommend"
-                        width={650}
-                        height={300}
+                        width={500}
+                        height={250}
+                        layout="responsive"
                         className="rounded-md cursor-pointer"
                     />
                 </SwiperSlide>
@@ -42,8 +43,9 @@ export default function Recommend() {
                     <Image
                         src="/images/recommend-2.PNG"
                         alt="Picture of the recommend"
-                        width={650}
-                        height={300}
+                        width={500}
+                        height={250}
+                        layout="responsive"
                         className="rounded-md cursor-pointer"
                     />
                 </SwiperSlide>
@@ -51,8 +53,9 @@ export default function Recommend() {
                     <Image
                         src="/images/recommend-3.PNG"
                         alt="Picture of the recommend"
-                        width={650}
-                        height={300}
+                        width={500}
+                        height={250}
+                        layout="responsive"
                         className="rounded-md cursor-pointer"
                     />
                 </SwiperSlide>
@@ -60,8 +63,9 @@ export default function Recommend() {
                     <Image
                         src="/images/recommend-4.PNG"
                         alt="Picture of the recommend"
-                        width={650}
-                        height={300}
+                        width={500}
+                        height={250}
+                        layout="responsive"
                         className="rounded-md cursor-pointer"
                     />
                 </SwiperSlide>

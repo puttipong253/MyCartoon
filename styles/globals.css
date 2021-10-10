@@ -73,3 +73,7 @@ body {
 .swiper-rtl .swiper-button-next:after {
     display: none;
 }
+
+.overflowHidden {
+    overflow: hidden;
+}
